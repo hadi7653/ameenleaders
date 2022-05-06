@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+      -
+    />
+    <title>Bookform</title>
+</head>
+<style>
+    body{
+        background-color: #d0edf5;
+    }
+</style>
+<body>
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-sm-2">
+
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <div class=" align-items-center">
+                            <i><h3 class="">Book upload</h3></i>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="">Title</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Title Name"
+                          value="bookname"
+                          name="bookname"
+                        />
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="">Author</label
+                            ><input
+                              type="text"
+                              class="form-control"
+                              value="jk rowlin"
+                              placeholder="Name of Author"
+                              name="nauthor"
+                            />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="formFile" class="form-label"
+                          >Choose Book</label
+                        >
+                        <input
+                          class="form-control"
+                          type="file"
+                          name="bookimage"
+                          id="formFile"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <label class="labels">Publication</label
+                        ><input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name of Publication Agent"
+                          value="pub"
+                          name="publication"
+                        />
+                      </div>
+                      </div>
+                      <div class="row">
+                      <div class="col-sm-6">
+                        <div class="md-form">
+                          <label for="date-picker-example" class=""
+                            >Date Of Publish</label
+                          >
+                          <input
+                            placeholder="Select a date"
+                            type="date"
+                            id="date-picker-example"
+                            class="form-control datepicker"
+                            value="15-06-2000"
+                            name="dpublish"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="md-form">
+                          <label for="date-picker-example" class=""
+                            >Date Added</label
+                          >
+                          <input
+                            placeholder="Select a date"
+                            type="date"
+                            id="date-picker-example"
+                            class="form-control datepicker"
+                            value="25-09-2000"
+                            name="dadded"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <label class="">Number Of Copies</label
+                        ><input
+                          type="text"
+                          class="form-control"
+                          placeholder="Enter the number"
+                          value="5"
+                          name="copies"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="" for="exampleFormControlSelect1"
+                              >Availability</label
+                            >
+                            <select
+                              class="form-control"
+                              name="bavailability"
+                              id="exampleFormControlSelect1"
+                            >
+                              <option value="true">Yes</option>
+                              <option value="false">No</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-6">
+                            <label class="" for="exampleFormControlSelect1"
+                              >Status</label
+                            >
+                            <select
+                              class="form-control"
+                              name="status"
+                              id="exampleFormControlSelect1"
+                            >
+                              <option value="Read">Read</option>
+                              <option value="Unread">Unread</option>
+                            </select>
+                          </div>
+                    </div>
+
+                        <div class="mt-5 text-center">
+                            <button class="btn btn-primary profile-button" type="submit">
+                              Save Book
+                            </button>
+                        </div>
+                </div>
+                
+
+                  
+                
+            </div>
+            <div class="col-sm-2">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/radialIndicator/1.4.0/radialIndicator.js"></script>
+
+
+</html>
